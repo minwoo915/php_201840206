@@ -41,9 +41,9 @@ class Database
     {
         $result = mysqli_query($this->connect, $query);
         if($result){
-            echo "쿼리 성공.";
+            echo "쿼리 성공."."<br>";
         } else {
-            print "쿼리 실패.";
+            print "쿼리 실패."."<br>";
         }
 
         return $result;
